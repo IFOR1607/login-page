@@ -13,6 +13,7 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
 .nav-container {
     display: flex;
     height: 75px;
@@ -88,6 +89,7 @@ nav > a {
     flex-direction: column;
     align-items: center;
     transform: translateY(30px);
+    margin-top: 40px;
 }
 .header-login i {
     transform: translateY(-20px);
@@ -114,6 +116,7 @@ nav > a {
     list-style-type: none;
     gap: 10px;
 }
+
 .username-login > input {
     width: 340px;
     padding: 12px;
@@ -143,9 +146,126 @@ nav > a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    transform: translateY(-30px);
+    gap: 10px;
 }
+
+
+.pembatas {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+
+.button-login > button {
+    width: 350px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    transform: ease-in 0.5s;
+
+}
+
+.button-login > button:hover {
+    background-color: rgb(41, 41, 41);
+    transition: ease-out 0.5s;
+    cursor: pointer;
+}
+
+.button-login p {
+    font-size: 14px;
+}
+
+.span1 {
+    letter-spacing: 10px; /* atur jaraknya di sini */
+    font-size: 20px;
+    transform: translateY(-8px);
+    color: rgb(185, 185, 185);
+}
+.button-login > .pembatas > p {
+    color: rgb(77, 77, 77);
+}
+.span2 {
+    letter-spacing: 10px; /* atur jaraknya di sini */
+    font-size: 20px; 
+    transform: translateY(-8px);
+    color: rgb(185, 185, 185);
+
+}
+
 .login-with-platform {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translateY(-55px);
+    gap: 20px;
 }
+
+.img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(245, 245, 245, 0.551);
+    width: 120px;   
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: ease-out 0.5s;
+}
+
+.img2    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(245, 245, 245, 0.551);
+    width: 120px;   
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: ease-out 0.5s;
+}
+
+.img3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(245, 245, 245, 0.551);
+    border-radius: 10px;
+    width: 120px;   
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: ease-out 0.5s;
+}
+
+.img3:hover {
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    
+}
+.img2:hover {
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.img1:hover {
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+
+.platform1 {
+    width: 30px;   /* ubah ukuran icon */
+    height: 30px;
+}
+
+.platform2 {
+    width: 40px;   /* ubah ukuran icon */
+    height: 40px;  
+}
+
